@@ -1,0 +1,1 @@
+Advent of Code day 1 first problem apart from the solution I stored each different distance into a slice so more data can be taken from the distances between the list of inputs, the data given for the problem is read from a file named input
