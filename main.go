@@ -2,10 +2,18 @@ package main
 
 import (
 	"fmt"
+	"buffio"
+	"errors"
+	"os"
+	"strings"
 )
 
 func main() {
 
-  fmt.println("hello world")
+  input, error := os.OpenFile("input", os.O_RDONLY)
+  if error != nil {
+	log.fatal("no valid input file found")
+  }
+  
 
 }
